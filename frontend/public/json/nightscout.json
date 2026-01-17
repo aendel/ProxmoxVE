@@ -39,6 +39,10 @@
     {
       "text": "Official Configuration Guide: [Nightscout Documentation](https://nightscout.github.io/nightscout/setup_variables/)",
       "type": "link"
+    },
+    {
+      "text": "Nightscout requires HTTPS for many features (security, tokens, PWA). Usage of a reverse proxy (e.g. Nginx Proxy Manager) is highly recommended.",
+      "type": "warning"
     }
   ]
 }

@@ -17,7 +17,7 @@ $STD apt-get install -y git curl build-essential libssl-dev
 msg_ok "Installed Dependencies"
 
 MONGO_VERSION="8.0" setup_mongodb
-NODE_VERSION="18" setup_nodejs
+NODE_VERSION="22" setup_nodejs
 
 msg_info "Installing Nightscout (Patience)"
 cd /opt || exit

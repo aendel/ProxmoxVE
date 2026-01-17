@@ -44,6 +44,8 @@ BASE_URL=http://localhost:1337
 API_SECRET=yoursecret123
 DISPLAY_UNITS=mg/dl
 ENABLE=careportal boluscalc food bwp cage sage iage iob cob basal ar2 rawbg pushover bgi pump openaps pvb linear custom
+# Allow HTTP (avoids redirect loops with reverse proxies)
+INSECURE_USE_HTTP=true
 EOF
 chown nightscout:nightscout /opt/nightscout/my.env
 
